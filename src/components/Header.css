@@ -131,16 +131,17 @@ li.nav_item {
     background: #000;
     width: 320px;
     right: 0px;
-    height: 86vh;
+    height: 100vh;
     bottom: 0%;
-    z-index: 999;
+    z-index: 1;
     opacity: 1;
     transform: translateX(100%);
     transition: all 0.4s ease-in-out;
 }
 .Hambuger_icon
 {
-  position:relative
+  position:relative;
+  z-index:2;
 }
 .Hambuger_icon span {
     position: absolute;
