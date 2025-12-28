@@ -132,7 +132,7 @@ li.nav_item {
     width: 320px;
     right: 0px;
     height: 100vh;
-    bottom: 0%;
+    top: 0%;
     z-index: 1;
     opacity: 1;
     transform: translateX(100%);
