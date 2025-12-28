@@ -1,0 +1,176 @@
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header_wrapper {
+    width: 260px;
+    height: 100vh;
+    padding: 2rem 0.5rem;
+    overflow-Y: scroll;
+}
+img.header_user_logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo-image {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 170px;
+    margin: 0 auto;
+    border: 8px solid #343a40;
+}
+h1.logo_title {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+}
+ul.nav_item_wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+li.nav_item {
+    padding: 0.5rem 0px;
+}
+h1.logo_title {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+ul.nav_item_wrapper {
+    text-align: center;
+}
+li.nav_item {
+    padding: 0.5rem 0px;
+}
+a.nav_item_data {
+    cursor: pointer;
+    color: #fff;
+}
+li.social_icon{
+list-style-type:none
+}
+li.social_icon a{
+text-decoration:none;
+font-family:'fontawesome';
+color: #fff;
+}
+li.social_icon a i{
+font-style: normal;
+ font-size:px;
+} 
+ul.header_social_icons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+li.social_icon {
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 20px;
+}
+.Hambuger_icon  {
+   display:none
+}
+li.nav_item {
+    padding: 0.5rem 0px;
+    list-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width: 991px)
+{
+    .sticky-top
+    {
+        position: absolute;
+        z-index: 2;
+    }
+  h1.logo_title{
+  margin-top:0px;
+  }
+  .header_wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    	height: auto;
+        position: relative;
+    	
+    }
+  .logo-image
+  {
+    display:none;
+  }
+  ul.header_social_icons{
+  display:none;
+  }
+  
+  .Hambuger_icon  {
+    display: block;
+  }
+      .Hambuger_icon {
+        border: 2px solid;
+        width: 34px;
+        padding: 15px 10px;
+        border-radius: 25px;
+    }
+ 
+.header_nav {
+    position: fixed;
+    background: #000;
+    width: 320px;
+    right: 0px;
+    height: 86vh;
+    bottom: 0%;
+    z-index: 999;
+    opacity: 1;
+    transform: translateX(100%);
+    transition: all 0.4s ease-in-out;
+}
+.Hambuger_icon
+{
+  position:relative
+}
+.Hambuger_icon span {
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+  	border-radius: 25px;
+    transition: all 0.4s ease-in-out;
+}
+.Hambuger_icon span:first-child {
+    top: 9px;
+   
+}
+.Hambuger_icon span:last-child { 
+   top: 18px;  
+}
+.Hambuger_icon.active span:first-child {
+  	top:14px;
+    transform: translateX(-50%)rotate(45deg);
+   
+}
+.Hambuger_icon.active span:last-child {
+    top:14px;
+    transform: translateX(-50%)rotate(-45deg);
+   
+}
+.header_nav.active {
+    transform: translateX(0%);
+}
+}
+
