@@ -20,7 +20,7 @@ const Contact = () => {
                             <i className="fa-solid fa-phone"></i>
                         </div>
                         <div className='contect_data'>
-                            <p className="contact_info"> Cotnact Now</p>
+                            <p className="contact_info"> Contact Now</p>
                         </div>
                     </a>
                 </div>
